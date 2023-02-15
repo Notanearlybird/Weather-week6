@@ -1,0 +1,56 @@
+h1 {
+  color: #202124;
+  display: inline-block;
+  vertical-align: top;
+}
+.col {
+  color: #70757a;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 9px;
+  padding-top: 6px;
+}
+.h3 {
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 9px;
+  padding-top: 6px;
+}
+.main {
+  max-width: 600px;
+  margin: 30px auto;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  font-size: 8px;
+  color: #778899;
+}
+a:link {
+  text-decoration: none;
+}
+.staricon {
+  max-width: 60px;
+}
+.frame {
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(173, 175, 185);
+}
+button.manual {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: rgba(120, 181, 255, 0.893);
+  border-block-color: rgb(50, 50, 111);
+  border-radius: 5px;
+}

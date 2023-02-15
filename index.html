@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>week 2</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  </head>
+
+  <body>
+    <div class="main">
+    <div class="container">
+    <div class="frame">
+    <div> <h3 id="city">PARIS</h3><span id="date">, Monday</span> </div>
+    <div class="row">
+      <div class="col-6"> 
+        <form id="search-form">
+        <input type="text" 
+        placeholder="Type your city" 
+        autocomplete="off"
+        id="search-text-input"/>
+        <input type="submit" value="Search" id="button1"/>
+      </form>
+      <div> <button class="manual" id="here">You are here</button></div>
+      </div>
+      <div class="col-6">
+        <div class="dropdown">
+          <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Day of the week
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Monday</a></li>
+            <li><a class="dropdown-item" href="#">Tuesday</a></li>
+            <li><a class="dropdown-item" href="#">Wednesday</a></li>
+          </ul>
+        </div></div>
+    </div>
+    <div> <h4>...</h4></div>
+    <div class="row">
+        <div class="col-6"> <h1> <span id="temp" >17</span>°<span id="cel">C</span>/<span id="far">F</span></h1></div>
+        <div class="col"></div>
+        <div class="row">
+            <div class="col">feels like</div>
+            <div class="col">Wind: <span id="wind" ></span></div>
+            <div class="col">Humidity: <span id="humidity"></span> </div>
+            <div class="col">Sunrise:</div>
+            <div class="col">Sunset:</div>
+          </div>
+          <div class="row">
+              <div class="col" ><a href="https://www.freeiconspng.com/img/23506" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/sunny-icon-0.png" width="30" alt="Sunny" /></a><a href="https://www.freeiconspng.com/img/23526"></a> <h3 id="weatherdescript">SUNNY</h3></div>
+            </div>
+            <div class="row">
+                <div class="col"> <a href="">coded by Notanearlybird</a> </div>
+                <div class="col"> Rating: <img src="src/5stars" alt="rating" class="staricon"></div>
+              </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
